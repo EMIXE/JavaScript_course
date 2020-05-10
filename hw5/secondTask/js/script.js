@@ -1,0 +1,16 @@
+let btnOpen = document.getElementById('open-btn');
+console.log(btnOpen);
+let leftMenu = document.getElementsByClassName('main-info');
+console.log(leftMenu);
+let kategoryGoods = document.getElementsByClassName('goods-item');
+console.log(kategoryGoods);
+let allBtns = document.getElementsByTagName('button');
+console.log(allBtns);
+let inputGoods = document.querySelector('.choose-item');
+let inputTime = document.querySelector('.time-value');
+let inputBudget = document.querySelector('.count-budget-value');
+console.log(inputGoods);
+console.log(inputTime);
+console.log(inputBudget);
+let hireEmployers = document.querySelectorAll('.hire-employers-item');
+console.log(hireEmployers);
