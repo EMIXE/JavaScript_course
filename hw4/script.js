@@ -3,7 +3,8 @@ let money,
     time,
     price
 
-function start() {
+function start() 
+{
     money = prompt("Ваш бюджет?");
     while (isNaN(money) || money == "" || money == null)  {
         money = prompt("Ваш бюджет?", 0);
